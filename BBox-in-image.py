@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("/home/mehdi/AIproducer/YOLO-Object-Detection/YOLO-Model/yolov8m-football.pt")
+model = YOLO("/home/Martin/AIproducer/YOLO-Object-Detection/YOLO-Model/yolov8m-football.pt")
 
 # Define class names (replace with actual names if available)
 class_names = ['ball', 'class_1', 'player', 'class_3', 'class_4']
