@@ -6,7 +6,7 @@ model = YOLO("/home/mehdi/AIproducer/YOLO-Object-Detection/YOLO-Model/yolov8m-fo
 # Define class names (replace with actual names if available)
 class_names = ['ball', 'class_1', 'player', 'class_3', 'class_4']
 
-image_path = "/home/mehdi/AIproducer/AI-Producer/aiproducer-new_feature_smart_crop/classification_service/frames/frame_5.jpg"
+image_path = "/home/Martin/AIproducer/AI-Producer/aiproducer-new_feature_smart_crop/classification_service/frames/frame_5.jpg"
 results = model(image_path)
 boxes = results[0].cpu().numpy()
 
