@@ -6,7 +6,7 @@ import cv2
 import shutil
 
 # Video path and model
-m3u8_url = 'https://api.forzify.com/eliteserien/playlist.m3u8/6526:1930000:1990000/Manifest.m3u8'
+m3u8_url = 'videourl'
 output_video_path = '//home/martin/Sep04/BoundingBox/YOLO-PredictBOX/Vbestm.avi'
 model = YOLO('/home/martin/Sep04/BoundingBox/bestm.pt')
 skip_n_frames = 1  # process every skip_n_frames frame
